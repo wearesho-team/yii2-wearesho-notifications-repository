@@ -1,8 +1,12 @@
-#Yii2 Wearesho Notifications Repository
+# Yii2 Wearesho Notifications Repository
 
 This library helps to configure
 [Wearesho Notifications Repository](https://github.com/wearesho-team/wearesho-notifications-repository)
-in yii2 application
+in Yii2 application.
+
+It contains:
+- Bootstrap
+- Job for yii2-queue for async notification pushing
 
 ## Installation
 
