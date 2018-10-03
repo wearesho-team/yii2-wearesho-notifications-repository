@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d6463c72b4e761d8d0e27a2d66ffc1e",
+    "content-hash": "54336dc84f6d604d1f00817ecdebd40d",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -594,8 +594,14 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:wearesho-team/wearesho-notifications-repository.git",
+                "url": "https://github.com/wearesho-team/wearesho-notifications-repository.git",
                 "reference": "8f8ee34ba76cac3512708c45a59d7dcb9873ced3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wearesho-team/wearesho-notifications-repository/zipball/8f8ee34ba76cac3512708c45a59d7dcb9873ced3",
+                "reference": "8f8ee34ba76cac3512708c45a59d7dcb9873ced3",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -612,22 +618,7 @@
                     "Wearesho\\Notifications\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Wearesho\\Notifications\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "lint": [
-                    "./vendor/bin/phpcs --standard=PSR2 ./src ./tests"
-                ],
-                "phpcbf": [
-                    "./vendor/bin/phpcbf --standard=PSR2 ./src ./tests"
-                ],
-                "test": [
-                    "./vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],

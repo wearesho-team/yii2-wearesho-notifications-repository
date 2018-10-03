@@ -30,8 +30,8 @@ return [
     'basePath' => '...',
     'bootstrap' => [
         'notifications' => [
-	        'class' => Wearesho\Notifications\Yii\Bootstrap::class,
-	    ],
+            'class' => Wearesho\Notifications\Yii\Bootstrap::class,
+        ],
     ],
 ];
 
