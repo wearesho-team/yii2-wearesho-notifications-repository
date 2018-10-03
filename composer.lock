@@ -595,7 +595,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:wearesho-team/wearesho-notifications-repository.git",
-                "reference": "b644116cc854e5bc417333105fdcb1d54e87f11a"
+                "reference": "8f8ee34ba76cac3512708c45a59d7dcb9873ced3"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -629,7 +629,7 @@
                 ]
             },
             "license": [
-                "Proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -637,7 +637,7 @@
                     "email": "aleksa.yagich@gmail.com"
                 }
             ],
-            "time": "2018-10-02T15:19:46+00:00"
+            "time": "2018-10-03T13:00:21+00:00"
         },
         {
             "name": "yiisoft/yii2",
