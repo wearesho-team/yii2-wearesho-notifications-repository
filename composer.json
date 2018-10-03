@@ -13,7 +13,7 @@
         "php": ">=7.2",
         "yiisoft/yii2": "2.0.15.1",
         "yiisoft/yii2-queue": "^2.1",
-        "wearesho-team/wearesho-notifications-repository": "dev-master"
+        "wearesho-team/wearesho-notifications-repository": "^1.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.3",
@@ -33,11 +33,5 @@
         "lint": "./vendor/bin/phpcs --standard=PSR2 ./src ./tests",
         "phpcbf": "./vendor/bin/phpcbf --standard=PSR2 ./src ./tests",
         "test": "./vendor/bin/phpunit"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:wearesho-team/wearesho-notifications-repository.git"
-        }
-    ]
+    }
 }
