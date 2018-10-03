@@ -1,4 +1,6 @@
 # Yii2 Wearesho Notifications Repository
+[![Build Status](https://travis-ci.org/wearesho-team/yii2-wearesho-notifications-repository.svg?branch=master)](https://travis-ci.org/wearesho-team/yii2-wearesho-notifications-repository)
+[![codecov](https://codecov.io/gh/wearesho-team/yii2-wearesho-notifications-repository/branch/master/graph/badge.svg)](https://codecov.io/gh/wearesho-team/yii2-wearesho-notifications-repository)
 
 This library helps to configure
 [Wearesho Notifications Repository](https://github.com/wearesho-team/wearesho-notifications-repository)
