@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b8bed52f0ea22085ca921a228a1cdeb",
+    "content-hash": "7d6463c72b4e761d8d0e27a2d66ffc1e",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -591,7 +591,7 @@
         },
         {
             "name": "wearesho-team/wearesho-notifications-repository",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:wearesho-team/wearesho-notifications-repository.git",
@@ -2341,9 +2341,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wearesho-team/wearesho-notifications-repository": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
