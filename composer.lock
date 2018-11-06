@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54336dc84f6d604d1f00817ecdebd40d",
+    "content-hash": "de10922b85bcb729e696f443006bd9ba",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -591,16 +591,16 @@
         },
         {
             "name": "wearesho-team/wearesho-notifications-repository",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wearesho-team/wearesho-notifications-repository.git",
-                "reference": "8f8ee34ba76cac3512708c45a59d7dcb9873ced3"
+                "reference": "9428e1cd8fb204e3291332720d9b312089bdfc63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wearesho-team/wearesho-notifications-repository/zipball/8f8ee34ba76cac3512708c45a59d7dcb9873ced3",
-                "reference": "8f8ee34ba76cac3512708c45a59d7dcb9873ced3",
+                "url": "https://api.github.com/repos/wearesho-team/wearesho-notifications-repository/zipball/9428e1cd8fb204e3291332720d9b312089bdfc63",
+                "reference": "9428e1cd8fb204e3291332720d9b312089bdfc63",
                 "shasum": ""
             },
             "require": {
@@ -628,7 +628,7 @@
                     "email": "aleksa.yagich@gmail.com"
                 }
             ],
-            "time": "2018-10-03T13:00:21+00:00"
+            "time": "2018-10-16T15:30:49+00:00"
         },
         {
             "name": "yiisoft/yii2",
