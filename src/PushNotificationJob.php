@@ -16,9 +16,9 @@ class PushNotificationJob extends base\BaseObject implements queue\JobInterface
     /** @var Notifications\Notification */
     public $notification;
 
-    /** @var array|string|Notifications\Repository */
+    /** @var array|string|Notifications\Push */
     public $repository = [
-        'class' => Notifications\Repository::class,
+        'class' => Notifications\Push::class,
     ];
 
     /**
@@ -26,8 +26,8 @@ class PushNotificationJob extends base\BaseObject implements queue\JobInterface
      */
     public function execute($queue)
     {
-        /** @var Notifications\Repository $repository */
-        $repository = di\Instance::ensure($this->repository, Notifications\Repository::class);
-        $repository->push($this->notification);
+        /** @var Notifications\Push $repository */
+        $push = di\Instance::ensure($this->repository, Notifications\Push::class);
+        $push->push($this->notification);
     }
 }
