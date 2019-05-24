@@ -11,7 +11,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.2",
-        "yiisoft/yii2": "2.0.15.1",
+        "yiisoft/yii2": "^2.0.15.1",
         "yiisoft/yii2-queue": "^2.1",
         "wearesho-team/wearesho-notifications-repository": "^1.1.0"
     },
